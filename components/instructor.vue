@@ -19,22 +19,22 @@ const showFullText = ref(false);
     </div>
     <div class="flex gap-5 mt-2">
       <img src="../public/profile.png" class="h-28 w-28" />
-      <div class="flex flex-col gap-2">
-        <div class="flex">
-          <Icon></Icon>
+      <div class="flex flex-col gap-2 ">
+        <div class="flex items-center gap-3">
+            <Icon icon="ri:star-s-fill" />
           <p>4.4 Instructor Rating</p>
         </div>
-        <div class="flex">
-          <Icon></Icon>
-          <p>4.4 Instructor Rating</p>
+        <div class="flex items-center gap-3">
+          <Icon icon="iconamoon:certificate-badge-fill"></Icon>
+          <p>54,719 Reviews</p>
         </div>
-        <div class="flex">
-          <Icon></Icon>
-          <p>4.4 Instructor Rating</p>
+        <div class="flex items-center gap-3">
+          <Icon icon="material-symbols:person-rounded"></Icon>
+          <p>109,491 Students</p>
         </div>
-        <div class="flex">
-          <Icon></Icon>
-          <p>4.4 Instructor Rating</p>
+        <div class="flex items-center gap-3">
+          <Icon icon="material-symbols:play-circle"></Icon>
+          <p>3 Courses</p>
         </div>
       </div>
     </div>
