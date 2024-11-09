@@ -34,6 +34,7 @@ onUnmounted(() => {
     <FrequentlyBought />
     <Instructor />
     <CourseRating />
+    <MoreCourse />
  
 
    
