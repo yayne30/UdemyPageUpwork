@@ -3,7 +3,7 @@ import { Icon } from '@iconify/vue';
 </script>
 
 <template>
-  <header class="w-screen fixed h-max flex items-center font-Montserrat ">
+  <header class="w-screen fixed mt-3 h-max flex items-center font-Montserrat ">
     <nav class="flex  items-center justify-between px-6">
         <div class="flex items-center">
             <NuxtLink to="/"> <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" class="w-[91px] h-[34px]"alt="Logo" />  </NuxtLink>

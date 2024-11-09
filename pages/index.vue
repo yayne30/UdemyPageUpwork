@@ -29,12 +29,12 @@ onUnmounted(() => {
   <div class="flex flex-col">
     <Header v-if="!hasScrolled" />
     <ScrolledHeader v-else />
-
     <Hero />
-    <Hero />
-    <Hero />
-    <Hero />
-    <Hero />
+    <StudentBoughtBox />
+    <FrequentlyBought />
+    <Instructor />
+    <CourseRating />
+ 
 
    
   </div>

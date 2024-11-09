@@ -33,7 +33,7 @@ onUnmounted(() => {
     </div>
   </div>
   <div
-    class=" bg-[#161515] mt-[70px] w-screen text-white flex flex-col gap-7 py-7 pl-20 font-Montserrat">
+    class=" bg-[#161515] mt-[70px] w-screen text-white flex flex-col gap-7 py-7 pl-20 font-Zeitung">
     <div class="text-[10pt] font-extrabold flex items-center space-x-2 text-[#d2cff6]">
       <a href="#">Business</a>
       <Icon icon="mdi:chevron-right" width="16" class="text-white" />

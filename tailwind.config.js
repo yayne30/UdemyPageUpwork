@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {},
     fontFamily:{
+      Zeitung: "Zeitung",
       Montserrat: "Montserrat , sans-serif",
     },
    
