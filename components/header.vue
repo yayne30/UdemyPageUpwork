@@ -3,7 +3,7 @@ import { Icon } from '@iconify/vue';
 </script>
 
 <template>
-  <header class="w-screen  h-[70px] flex items-center ">
+  <header class="w-screen fixed h-max flex items-center font-Montserrat ">
     <nav class="flex  items-center justify-between px-6">
         <div class="flex items-center">
             <NuxtLink to="/"> <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" class="w-[91px] h-[34px]"alt="Logo" />  </NuxtLink>
@@ -13,7 +13,8 @@ import { Icon } from '@iconify/vue';
   <Icon icon="mdi:magnify" width="25" class="absolute left-4 text-gray-500"></Icon>
   <input 
     type="text" 
-    class="rounded-3xl h-full w-full outline-none pl-12 text-[10pt] bg-transparent" 
+    
+    class="rounded-3xl h-full w-full outline-none pl-12 text-[10pt] bg-transparent placeholder" 
     placeholder="Search for anything" 
   />
 </div>
