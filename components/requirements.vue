@@ -48,7 +48,6 @@ const showFullText = ref(false);
       </span>
     </p>
 
-    <!-- Show More / Show Less Button with Arrow Icons -->
     <button @click="showFullText = !showFullText" class="mt-2 text-[#4e1774] font-extrabold hover:underline self-start flex items-center gap-1">
       <Icon :icon="showFullText ? 'akar-icons:chevron-up' : 'akar-icons:chevron-down'" width="15" height="15" />
       {{ showFullText ? 'Show less' : 'Show more' }}

@@ -200,6 +200,4 @@ const toggleSection = (index) => {
   </div>
 </template>
 
-<style scoped>
-/* Optional styles for better presentation */
-</style>
+

@@ -20,7 +20,7 @@ import { ref, computed } from "vue";
           class="h-[40vh] w-[48%] p-1 flex flex-col gap-5 border-b-[1px] border-gray-300"
         >
           <div class="flex gap-4">
-            <div class="bg-black h-11 w-11 p-3 rounded-full text-white flex items-center font-extrabold justify-center">T</div>
+            <div class="bg-black h-11 w-11 p-3 rounded-full text-white flex items-center font-extrabold">T</div>
             <div>
               <h1 class="font-extrabold text-[13pt]">Karen C.</h1>
               <div class="flex items-center font-normal text-[11pt]">
@@ -58,7 +58,7 @@ import { ref, computed } from "vue";
           class="h-[40vh] w-[48%] p-1 flex flex-col gap-5 border-b-[1px] border-gray-300"
         >
           <div class="flex gap-4">
-            <div class="bg-black h-11 w-11 p-3 rounded-full text-white flex items-center justify-center font-extrabold"> GE</div>
+            <div class="bg-black h-11 w-11 p-3 rounded-full text-white flex items-center font-extrabold"> GE</div>
             <div>
               <h1 class="font-extrabold text-[13pt]">John D.</h1>
               <div class="flex items-center font-normal text-[11pt]">
@@ -93,7 +93,7 @@ import { ref, computed } from "vue";
 
         <div class="h-[40vh] w-[48%] p-1 flex flex-col gap-5">
           <div class="flex gap-4">
-            <div class="bg-black h-11 w-11 p-3 rounded-full text-white flex items-center justify-center font-extrabold">E</div>
+            <div class="bg-black h-11 w-11 p-3 rounded-full "></div>
             <div>
               <h1 class="font-extrabold text-[13pt]">Heather F.</h1>
               <div class="flex items-center font-normal text-[11pt]">
@@ -128,7 +128,7 @@ import { ref, computed } from "vue";
 
         <div class="h-[40vh] w-[48%] p-1 flex flex-col gap-5">
           <div class="flex gap-4">
-            <div class="bg-black h-11 w-11 p-3 rounded-full flex items-center  text-white font-extrabold justify-center">L</div>
+            <div class="bg-black h-11 w-11 p-3 rounded-full"></div>
             <div>
               <h1 class="font-extrabold text-[13pt]">Udemy User</h1>
               <div class="flex items-center font-normal text-[11pt]">

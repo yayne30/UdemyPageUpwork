@@ -2,7 +2,6 @@
 import { Icon } from "@iconify/vue";
 import { ref } from 'vue';
 
-// Toggle variable for showing full text
 const showFullText = ref(false);
 </script>
 

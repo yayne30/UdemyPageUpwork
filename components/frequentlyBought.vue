@@ -2,7 +2,6 @@
 import { Icon } from '@iconify/vue';
 import { ref, computed } from 'vue';
 
-// Array of students with their details
 const students = [
   { id: 1, imageSrc: "/student1.png", name: "Design Thinking for Beginners: Develop Innovative Ideas", teacher:"Laura Pickel", rating: "4.4", reviews: "126,180", price: "$89.99" },
   { id: 2, imageSrc: "/game.png", name: "Creative Problem Solving", rating: "4.6", teacher:"Laura Pickel",reviews: "126,180", price: "$89.99",  },

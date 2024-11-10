@@ -2,7 +2,6 @@
 import { Icon } from '@iconify/vue';
 import { ref, computed } from 'vue';
 
-// Array of students with their details
 const students = [
   { id: 1, imageSrc: "/student1.png", name: "Design Thinking in 3 Steps", rating: "4.4", reviews: "126,180", price: "$89", hours: "1.5 total hours", updateDate: "6/2020" },
   { id: 2, imageSrc: "/student2.png", name: "Creative Problem Solving", rating: "4.6", reviews: "150,200", price: "$89", hours: "2 hours", updateDate: "8/2020" },

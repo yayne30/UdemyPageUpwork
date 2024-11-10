@@ -2,21 +2,17 @@
 import { ref, onMounted } from 'vue';
 import { Icon } from '@iconify/vue';
 
-// Reactive state to track scroll position
 const isScrolled = ref(false);
 
-// Function to handle scroll event
 const handleScroll = () => {
-  const scrollThreshold = 100; // Set the scroll threshold (in pixels)
-  isScrolled.value = window.scrollY > scrollThreshold; // Update the state based on scroll position
+  const scrollThreshold = 100; 
+  isScrolled.value = window.scrollY > scrollThreshold; 
 };
 
-// Add scroll event listener on mount
 onMounted(() => {
   window.addEventListener('scroll', handleScroll);
 });
 
-// Remove scroll event listener on unmount
 onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll);
 });
