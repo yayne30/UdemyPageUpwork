@@ -21,7 +21,7 @@ onUnmounted(() => {
 <template>
   <div class="flex gap-3 flex-col shadow-lg border border-gray-300 pb-8">
     <div v-if="!isScrolled">
-      <img src="public/video.png" />
+      <img src="../public/video.png" />
     </div>
     <div class="flex text-[11pt] mt-5">
       <button class="w-[50%] pb-3 border-black border-b-2 font-bold">Personal</button>
