@@ -19,28 +19,21 @@ const handleScroll = () => {
   } else {
     isScrolled.value = false;
   }
-};
+}
 
 onMounted(() => {
-  window.addEventListener("scroll", handleScroll);
+  window.addEventListener('scroll', handleScroll);
 });
 
 onUnmounted(() => {
-  window.removeEventListener("scroll", handleScroll);
+  window.removeEventListener('scroll', handleScroll);
 });
 </script>
 
 <template>
+ 
   <div class="flex flex-col">
-    <div
-      :class="{
-        'fixed top-[20px]': isScrolled,
-        'fixed top-[110px]': !isScrolled }"
-      class="right-[80px] z-50 w-[28%] h-screen bg-white transition-all"
-    >
-      <AddToCart />
-    </div>
-  
+   
     <Header v-if="!hasScrolled" />
     <ScrolledHeader v-else />
 
