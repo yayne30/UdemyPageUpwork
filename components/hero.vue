@@ -51,7 +51,14 @@ onUnmounted(() => {
     </div>
     <div class="flex flex-col gap-3">
       <div class="flex gap-2 items-center">
-        <img src="/stars.png" alt="stars" class="h-[15px]"/>
+        <div class="flex items-center font-normal text-[11pt]">
+              <span class="font-extrabold text-yellow-400">4.4</span>
+              <Icon icon="ri:star-s-fill" class="text-yellow-500" />
+              <Icon icon="ri:star-s-fill" class="text-yellow-500" />
+              <Icon icon="ri:star-s-fill" class="text-yellow-500" />
+              <Icon icon="ri:star-s-fill" class="text-yellow-500" />
+              <Icon icon="ri:star-s-fill" class="text-yellow-500" />
+            </div>
         <a href="" class="text-[#cecaff] font-extrabold text-[10pt] underline">(53,724 ratings)</a>
         <p class="text-[10pt] font-extrabold">105,243 students</p>
       </div>

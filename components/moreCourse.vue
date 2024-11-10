@@ -34,7 +34,7 @@ import { ref, computed } from "vue";
         <h1 class="font-extrabold text-[15pt]">$39.99</h1>
       </div>
       <div class="w-64">
-        <img src="../public/game.png" class="h-30 w-60" />
+        <img src="../public/pic.png" class="h-30 w-60" />
         <h1 class="font-extrabold text-[13pt]">
           Gamification for Learning, Performance & Change
         </h1>
