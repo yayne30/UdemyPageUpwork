@@ -55,6 +55,6 @@ import { ref, computed } from "vue";
       </div>
     </div>
   </div>
-  <button class="border-[1.2px] border-black mt-5 w-full p-[7px] font-bold"> Report Abuse</button>
+  <button class="border-[1.2px] border-black mt-5 w-full p-[7px] font-bold hover:bg-slate-200"> Report Abuse</button>
 </div>
 </template>

@@ -13,11 +13,11 @@ const showFullText = ref(false);
             <li>Basic understanding of course design</li>
             <li>Everyday supplies to prototype solutions (paper, Post-Its, pens, markers, tape, etc.)</li>
         </ul>
-    </div>
+      </div>
     <h1 class="text-[17pt] mt-3 font-extrabold">Description</h1>
     <h2 class="font-extrabold mb-4">Ready to change the game?</h2>
 
-    <p class="text-[11pt]">
+    <p class="text-[11pt] ">
       <span v-if="showFullText">
         If you've missed one of our popular gamification classes at Stanford, here's your chance to learn about <strong>gamification for training & learning.</strong> In this new course, you'll learn how to analyze popular games for the elements that make them work, make them fun, and make them perfect for your learning challenges.
         <br><br>

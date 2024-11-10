@@ -7,7 +7,7 @@ import { ref, computed } from "vue";
   <div class="w-[56vw] ml-20 py-4 mt-10 font-Zeitung">
     <div class="flex items-center">
       <Icon icon="ri:star-s-fill" width="24" class="text-yellow-800"></Icon>
-      <h1 class="text-[17pt] font-extrabold">4.4 course rating 54K ratings</h1>
+      <h1 class="text-[17pt] font-extrabold">4.4 course  54K ratings</h1>
     </div>
     <div class="flex items-center my-5">
       <div class="flex-grow h-px bg-slate-400"></div>
@@ -20,7 +20,7 @@ import { ref, computed } from "vue";
           class="h-[40vh] w-[48%] p-1 flex flex-col gap-5 border-b-[1px] border-gray-300"
         >
           <div class="flex gap-4">
-            <div class="bg-black h-11 w-11 p-3 rounded-full"></div>
+            <div class="bg-black h-11 w-11 p-3 rounded-full text-white flex items-center font-extrabold justify-center">T</div>
             <div>
               <h1 class="font-extrabold text-[13pt]">Karen C.</h1>
               <div class="flex items-center font-normal text-[11pt]">
@@ -58,7 +58,7 @@ import { ref, computed } from "vue";
           class="h-[40vh] w-[48%] p-1 flex flex-col gap-5 border-b-[1px] border-gray-300"
         >
           <div class="flex gap-4">
-            <div class="bg-black h-11 w-11 p-3 rounded-full"></div>
+            <div class="bg-black h-11 w-11 p-3 rounded-full text-white flex items-center justify-center font-extrabold"> GE</div>
             <div>
               <h1 class="font-extrabold text-[13pt]">John D.</h1>
               <div class="flex items-center font-normal text-[11pt]">
@@ -93,7 +93,7 @@ import { ref, computed } from "vue";
 
         <div class="h-[40vh] w-[48%] p-1 flex flex-col gap-5">
           <div class="flex gap-4">
-            <div class="bg-black h-11 w-11 p-3 rounded-full"></div>
+            <div class="bg-black h-11 w-11 p-3 rounded-full text-white flex items-center justify-center font-extrabold">E</div>
             <div>
               <h1 class="font-extrabold text-[13pt]">Heather F.</h1>
               <div class="flex items-center font-normal text-[11pt]">
@@ -128,7 +128,7 @@ import { ref, computed } from "vue";
 
         <div class="h-[40vh] w-[48%] p-1 flex flex-col gap-5">
           <div class="flex gap-4">
-            <div class="bg-black h-11 w-11 p-3 rounded-full"></div>
+            <div class="bg-black h-11 w-11 p-3 rounded-full flex items-center  text-white font-extrabold justify-center">L</div>
             <div>
               <h1 class="font-extrabold text-[13pt]">Udemy User</h1>
               <div class="flex items-center font-normal text-[11pt]">
