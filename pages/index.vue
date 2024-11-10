@@ -41,6 +41,7 @@ onUnmounted(() => {
     <WhatLearn />
     <CourseInclude />
     <CourseContent />
+    <Requirements />
     <StudentBoughtBox />
     <FrequentlyBought />
     <Instructor />

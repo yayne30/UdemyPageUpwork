@@ -5,7 +5,7 @@ import { ref, computed } from "vue";
 
 <template>
   <div class="w-[56vw] ml-20 py-4 pr-44 mt-5 font-Zeitung">
-    <h1 class="text-[20pt] font-extrabold">This Course Includes:</h1>
+    <h1 class="text-[17pt] font-extrabold">This Course Includes:</h1>
     <div  class="flex justify-between text-[12pt] pt-3">
        
     <div  class="flex gap-2 flex-col">

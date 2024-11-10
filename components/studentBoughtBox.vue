@@ -28,7 +28,7 @@ const toggleShowMore = () => {
 
 <template>
   <div class=" pl-20 mt-10 w-[62vw] font-Zeitung">
-    <h1 class="text-[20pt] font-extrabold">Students also bought</h1>
+    <h1 class="text-[17pt] font-extrabold">Students also bought</h1>
     
     <div class="grid grid-cols-1 gap-4 w-[100%]">
       <div v-for="student in displayedStudents" :key="student.id" class="grid grid-cols-[1fr,4fr,1fr,1fr,1fr,1fr] gap-4 py-[5px] items-center w-full pb-3 border-b-[1.3px] border-gray-200">

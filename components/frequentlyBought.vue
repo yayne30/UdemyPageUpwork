@@ -14,7 +14,7 @@ const students = [
 </script>
 <template>
     <div class="w-[56vw] ml-20 px-5 py-4 mt-10 font-Zeitung border-[1.2px] border-[#ababab]">
-      <h1 class="text-[20pt] font-extrabold">Frequently Bought Together</h1>
+      <h1 class="text-[17pt] font-extrabold">Frequently Bought Together</h1>
       
       <div class="grid grid-cols-1 gap-4 w-[100%]">
         <div v-for="student in students" :key="student.id" class="grid grid-cols-[2fr,5fr] gap-2 py-[5px] items-center w-full">

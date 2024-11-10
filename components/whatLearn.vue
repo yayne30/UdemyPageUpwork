@@ -4,7 +4,7 @@ import { Icon } from '@iconify/vue';
 
 <template>
   <div class="w-[56vw] h-[230px] ml-20 pl-5 py-4 mt-10 font-Zeitung border-[1.2px] border-[#ababab]">
-    <h1 class="text-[20pt] font-extrabold">What you'll learn</h1>
+    <h1 class="text-[17pt] font-extrabold">What you'll learn</h1>
     
     <div class="flex gap-7 text-[11pt] pt-3">
       <div class="flex gap-3 flex-col">

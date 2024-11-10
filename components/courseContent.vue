@@ -142,7 +142,7 @@ const toggleSection = (index) => {
 
 <template>
   <div class="w-[70vw] ml-20 py-4 pr-44 mt-5 font-Zeitung">
-    <h1 class="text-[18pt] font-extrabold">Course Content</h1>
+    <h1 class="text-[17pt] font-extrabold">Course Content</h1>
     <div class="mt-5 w-full">
       <div class="flex justify-between">
         <p>10 sections • 27 lectures • 1h 30m total length</p>

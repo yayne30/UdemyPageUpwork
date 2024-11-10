@@ -8,7 +8,7 @@ const showFullText = ref(false);
 
 <template>
   <div class="w-[56vw] ml-20 py-4 mt-10 font-Zeitung flex flex-col gap-2">
-    <h1 class="text-[20pt] font-extrabold">Instructor</h1>
+    <h1 class="text-[17pt] font-extrabold">Instructor</h1>
     <div>
       <a href="" class="text-[#4c26b4] font-extrabold text-[14pt] underline">
         Laura Pickel</a

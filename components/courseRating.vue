@@ -7,7 +7,7 @@ import { ref, computed } from "vue";
   <div class="w-[56vw] ml-20 py-4 mt-10 font-Zeitung">
     <div class="flex items-center">
       <Icon icon="ri:star-s-fill" width="24" class="text-yellow-800"></Icon>
-      <h1 class="text-[20pt] font-extrabold">4.4 course rating 54K ratings</h1>
+      <h1 class="text-[17pt] font-extrabold">4.4 course rating 54K ratings</h1>
     </div>
     <div class="flex items-center my-5">
       <div class="flex-grow h-px bg-slate-400"></div>

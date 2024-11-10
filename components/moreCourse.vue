@@ -8,7 +8,7 @@ import { ref, computed } from "vue";
 
    
   <div class="border-b-[1.3px] pb-10">
-    <h1 class="text-[20pt] mb-3 font-extrabold">
+    <h1 class="text-[17pt] mb-3 font-extrabold">
       More Courses by
       <strong class="text-[#6447cf] font-extrabold"> Laura Pickel</strong>
     </h1>
