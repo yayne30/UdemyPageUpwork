@@ -3,10 +3,10 @@ import { Icon } from '@iconify/vue';
 </script>
 
 <template>
-  <div class="w-[56vw] h-[240px] ml-20 pl-5 py-4 mt-10 font-Zeitung border-[1.2px] border-[#ababab]">
+  <div class="w-[56vw] h-[230px] ml-20 pl-5 py-4 mt-10 font-Zeitung border-[1.2px] border-[#ababab]">
     <h1 class="text-[20pt] font-extrabold">What you'll learn</h1>
     
-    <div class="grid grid-cols-2 gap-6 text-[11pt] pt-3">
+    <div class="flex gap-7 text-[11pt] pt-3">
       <div class="flex gap-3 flex-col">
         <div class="flex gap-2 items-start">
           <Icon icon="material-symbols:check-rounded" width="20" />
@@ -23,7 +23,7 @@ import { Icon } from '@iconify/vue';
         </div>
       </div>
       <div class="flex gap-3 flex-col">
-        <div class="flex gap-2  text-[10pt] items-start">
+        <div class="flex gap-2   items-start">
           <Icon icon="material-symbols:check-rounded" width="20" />
           <h2>See how we've creating learning games for some of the world's </h2>
         </div>
