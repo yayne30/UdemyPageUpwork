@@ -7,7 +7,6 @@ import AddToCart from '../components/addToCart.vue';
 const hasScrolled = ref(false);
 const isScrolled = ref(false);
 
-// Handle scroll event to manage both header visibility and the sticky sidebar
 const handleScroll = () => {
   if (window.scrollY > 50) {
     hasScrolled.value = true;
@@ -22,12 +21,10 @@ const handleScroll = () => {
   }
 };
 
-// Add event listener for scroll on mount
 onMounted(() => {
   window.addEventListener("scroll", handleScroll);
 });
 
-// Remove event listener for scroll on unmount
 onUnmounted(() => {
   window.removeEventListener("scroll", handleScroll);
 });
@@ -35,7 +32,6 @@ onUnmounted(() => {
 
 <template>
   <div class="flex flex-col">
-    <!-- Floating Sidebar -->
     <div
       :class="{
         'fixed top-[20px]': isScrolled,
@@ -45,11 +41,9 @@ onUnmounted(() => {
       <AddToCart />
     </div>
   
-    <!-- Header Change on Scroll -->
     <Header v-if="!hasScrolled" />
     <ScrolledHeader v-else />
 
-    <!-- Main Content -->
     <Hero />
     <WhatLearn />
     <CourseInclude />
