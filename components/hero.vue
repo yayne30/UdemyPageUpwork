@@ -1,37 +1,11 @@
 <script setup>
 import { Icon } from "@iconify/vue";
 import addToCart from "./addToCart.vue";
-const isScrolled = ref(false);
 
-const handleScroll = () => {
-  if (window.scrollY > 0) {
-    isScrolled.value = true;
-  } else {
-    isScrolled.value = false;
-  }
-};
-
-onMounted(() => {
-  window.addEventListener("scroll", handleScroll);
-});
-
-onUnmounted(() => {
-  window.removeEventListener("scroll", handleScroll);
-});
 </script>
 
 <template>
-    <div
-    :class="{
-      'fixed top-[20px]': isScrolled,
-      'fixed top-[110px]': !isScrolled }"
-    class="right-[80px] z-50 w-[28%] h-screen bg-white transition-all"
-  >
   
-    <div>
-        <AddToCart />
-    </div>
-  </div>
   <div
     class=" bg-[#161515] mt-[70px] w-screen text-white flex flex-col gap-7 py-7 pl-20 font-Zeitung">
     <div class="text-[10pt] font-extrabold flex items-center space-x-2 text-[#d2cff6]">
