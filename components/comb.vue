@@ -33,17 +33,25 @@ onUnmounted(() => {
 <template>
  
   <div class="flex flex-col">
-   
+    <div
+      :class="{
+        'fixed right-[80px] z-50 w-[28%] h-screen bg-white transition-all': true,
+        'top-[20px]': isScrolled,
+        'top-[100px]': !isScrolled 
+      }"
+    >
+      <div>
+        <AddToCart />
+      </div>
+    </div>
     <Header v-if="!hasScrolled" />
     <ScrolledHeader v-else />
 
     <Hero />
-    <WhatLearn />
     <StudentBoughtBox />
     <FrequentlyBought />
     <Instructor />
     <CourseRating />
     <MoreCourse />
-    <Footer />
   </div>
 </template>

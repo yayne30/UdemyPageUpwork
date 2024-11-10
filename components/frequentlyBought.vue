@@ -13,7 +13,7 @@ const students = [
 
 </script>
 <template>
-    <div class="w-[56vw] ml-20 px-5 py-4 mt-10 font-Zeitung border-2">
+    <div class="w-[56vw] ml-20 px-5 py-4 mt-10 font-Zeitung border-[1.2px] border-[#ababab]">
       <h1 class="text-[20pt] font-extrabold">Frequently Bought Together</h1>
       
       <div class="grid grid-cols-1 gap-4 w-[100%]">
